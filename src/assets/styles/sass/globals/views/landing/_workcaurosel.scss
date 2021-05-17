@@ -1,0 +1,38 @@
+.technologies-carousel-wrap {
+    padding: 80px 0px;
+    .ngucarousel {
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+    .section-header {
+        p {
+            max-width: 600px;
+        }
+    }
+    .card {
+        .card-img-top {
+            max-height: 300px;
+            min-height: 300px;
+        }
+        .card-footer {
+            background: transparent;
+            a.text-dark {
+                line-height: 10px;
+            }
+        }
+    }
+
+    .slick-track {
+        display: flex;
+        align-items: center;
+        margin-bottom: 3rem;
+    }
+
+    .tech-icon {
+        height: 150px;
+        object-fit: contain;
+        object-position: center;
+    }
+}
+
+@media only screen and (max-width: 764px) {}
